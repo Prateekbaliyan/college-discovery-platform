@@ -28,6 +28,8 @@ export function CollegeSearch() {
   const [data, setData] = useState<ResponseData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const totalPages = Math.max(1, Math.ceil((data?.meta.total ?? 0) / (data?.meta.limit ?? 10)));
+  const isLastPage = page >= totalPages;
 
   const queryString = useMemo(() => {
     const params = new URLSearchParams();
@@ -99,10 +101,10 @@ export function CollegeSearch() {
 
           <div className="rounded-3xl bg-white p-6 text-slate-700 shadow-sm">
             <div className="flex flex-wrap items-center justify-between gap-3">
-              <p className="text-sm">Page {data?.meta.page} of {Math.max(1, Math.ceil((data?.meta.total ?? 0) / (data?.meta.limit ?? 10)))}</p>
+              <p className="text-sm">Page {data?.meta.page} of {totalPages}</p>
               <div className="flex items-center gap-3">
                 <button disabled={page <= 1} onClick={() => setPage((current) => Math.max(1, current - 1))} className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-2 disabled:cursor-not-allowed disabled:opacity-50">Previous</button>
-                <button disabled={data && page >= Math.ceil(data.meta.total / data.meta.limit)} onClick={() => setPage((current) => current + 1)} className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-2 disabled:cursor-not-allowed disabled:opacity-50">Next</button>
+                <button disabled={isLastPage} onClick={() => setPage((current) => current + 1)} className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-2 disabled:cursor-not-allowed disabled:opacity-50">Next</button>
               </div>
             </div>
           </div>
