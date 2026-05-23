@@ -2,6 +2,8 @@ node_modules
 .env
 /dist
 /.next
+backend/dist
+frontend/.next
 /.idea
 .vscode
 npm-debug.log*
