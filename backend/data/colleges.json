@@ -1,0 +1,222 @@
+[
+  {
+    "name": "IIT Bombay",
+    "location": "Mumbai",
+    "fees": 150000,
+    "rating": 4.8,
+    "placement_percent": 95,
+    "courses": ["Computer Science", "Electrical", "Mechanical", "Civil"],
+    "overview": "Indian Institute of Technology Bombay is a top engineering college known for technology research and strong placement support.",
+    "top_course": "Computer Science",
+    "review_summary": "Excellent faculty, high placements, strong alumni network."
+  },
+  {
+    "name": "IIT Delhi",
+    "location": "Delhi",
+    "fees": 160000,
+    "rating": 4.7,
+    "placement_percent": 94,
+    "courses": ["Computer Science", "Electrical", "Aerospace", "Biotechnology"],
+    "overview": "IIT Delhi delivers world-class engineering education with vibrant campus life and research facilities.",
+    "top_course": "Computer Science",
+    "review_summary": "Great research culture, strong industry connections, high cutoffs."
+  },
+  {
+    "name": "NIT Trichy",
+    "location": "Tamil Nadu",
+    "fees": 90000,
+    "rating": 4.4,
+    "placement_percent": 89,
+    "courses": ["Computer Science", "Chemical", "Civil", "Electronics"],
+    "overview": "NIT Trichy is one of the top NITs with balanced academics and good placement opportunities.",
+    "top_course": "Computer Science",
+    "review_summary": "Strong campus life, affordable fees, reliable placements."
+  },
+  {
+    "name": "BITS Pilani",
+    "location": "Rajasthan",
+    "fees": 220000,
+    "rating": 4.6,
+    "placement_percent": 92,
+    "courses": ["Software Engineering", "Electronics & Instrumentation", "Civil", "Economics"],
+    "overview": "BITS Pilani is a premier private institute with multidisciplinary programs and strong placement records.",
+    "top_course": "Software Engineering",
+    "review_summary": "Excellent infrastructure, strong placements, long study hours."
+  },
+  {
+    "name": "VIT Vellore",
+    "location": "Tamil Nadu",
+    "fees": 180000,
+    "rating": 4.2,
+    "placement_percent": 85,
+    "courses": ["Computer Science", "Information Technology", "Mechanical", "Biotechnology"],
+    "overview": "VIT Vellore offers modern labs and a large placement ecosystem for science and engineering students.",
+    "top_course": "Computer Science",
+    "review_summary": "Large campus, good alumni network, robust placement support."
+  },
+  {
+    "name": "Jadavpur University",
+    "location": "Kolkata",
+    "fees": 45000,
+    "rating": 4.1,
+    "placement_percent": 78,
+    "courses": ["Electrical", "Architecture", "Mechanical", "Computer Science"],
+    "overview": "Jadavpur University is a reputed state university with affordable fees and strong academic reputation.",
+    "top_course": "Electrical Engineering",
+    "review_summary": "Good faculty, competitive environment, campus politics can be intense."
+  },
+  {
+    "name": "Manipal Institute of Technology",
+    "location": "Karnataka",
+    "fees": 200000,
+    "rating": 4.0,
+    "placement_percent": 80,
+    "courses": ["Computer Science", "Artificial Intelligence", "Civil", "Biomedical"],
+    "overview": "MIT Manipal offers a wide range of engineering programs with strong industry partnerships.",
+    "top_course": "Artificial Intelligence",
+    "review_summary": "Modern campus, strong placement support, high fee structure."
+  },
+  {
+    "name": "Delhi Technological University",
+    "location": "Delhi",
+    "fees": 110000,
+    "rating": 4.3,
+    "placement_percent": 88,
+    "courses": ["Computer Science", "Electronics", "Mechanical", "Information Technology"],
+    "overview": "DTU provides excellent technical programs with strong placement opportunities in Delhi NCR.",
+    "top_course": "Computer Science",
+    "review_summary": "Strong practical focus, good placements, fast-paced environment."
+  },
+  {
+    "name": "College of Engineering Pune",
+    "location": "Maharashtra",
+    "fees": 70000,
+    "rating": 4.2,
+    "placement_percent": 81,
+    "courses": ["Computer Science", "Mechanical", "Civil", "Electrical"],
+    "overview": "COEP Pune is known for its engineering legacy, strong practical training, and affordable fees.",
+    "top_course": "Computer Science",
+    "review_summary": "Great alumni network, solid placements, campus is well established."
+  },
+  {
+    "name": "Amity University",
+    "location": "Noida",
+    "fees": 180000,
+    "rating": 3.9,
+    "placement_percent": 76,
+    "courses": ["Computer Science", "Data Science", "Law", "Business"],
+    "overview": "Amity University offers a broad set of professional programs with new campus facilities.",
+    "top_course": "Data Science",
+    "review_summary": "Good infrastructure, practical courses, placements vary by branch."
+  },
+  {
+    "name": "SRM Institute of Science and Technology",
+    "location": "Tamil Nadu",
+    "fees": 170000,
+    "rating": 4.0,
+    "placement_percent": 79,
+    "courses": ["Computer Science", "Mechanical", "Civil", "Aerospace"],
+    "overview": "SRM provides industry-aligned engineering programs with a large student community.",
+    "top_course": "Computer Science",
+    "review_summary": "Good campus life, strong placement cell, high fees for private institute."
+  },
+  {
+    "name": "College of Engineering Guindy",
+    "location": "Chennai",
+    "fees": 85000,
+    "rating": 4.5,
+    "placement_percent": 90,
+    "courses": ["Civil", "Mechanical", "Computer Science", "Electrical"],
+    "overview": "CEG is one of the oldest engineering colleges in India, offering strong academics and placements.",
+    "top_course": "Computer Science",
+    "review_summary": "Prestigious legacy, excellent faculty, highly competitive admissions."
+  },
+  {
+    "name": "Punjab Engineering College",
+    "location": "Chandigarh",
+    "fees": 95000,
+    "rating": 4.1,
+    "placement_percent": 82,
+    "courses": ["Electronics", "Civil", "Computer Science", "Mechanical"],
+    "overview": "PEC Chandigarh combines strong academics with established placement support.",
+    "top_course": "Electronics Engineering",
+    "review_summary": "Good campus life, reliable placements, prioritized top branches."
+  },
+  {
+    "name": "IIT Madras",
+    "location": "Chennai",
+    "fees": 155000,
+    "rating": 4.8,
+    "placement_percent": 96,
+    "courses": ["Computer Science", "Aerospace", "Civil", "Biotechnology"],
+    "overview": "IIT Madras is a top-tier institute with cutting-edge research and premium placement records.",
+    "top_course": "Computer Science",
+    "review_summary": "Outstanding research, world-class faculty, top corporate placements."
+  },
+  {
+    "name": "NIT Surathkal",
+    "location": "Karnataka",
+    "fees": 95000,
+    "rating": 4.3,
+    "placement_percent": 88,
+    "courses": ["Mechanical", "Computer Science", "Civil", "Electronics"],
+    "overview": "NIT Surathkal is a scenic engineering campus with strong technical programs and placement support.",
+    "top_course": "Computer Science",
+    "review_summary": "Excellent academics, good infrastructure, strong campus culture."
+  },
+  {
+    "name": "Jamia Millia Islamia",
+    "location": "Delhi",
+    "fees": 40000,
+    "rating": 3.9,
+    "placement_percent": 72,
+    "courses": ["Aerospace", "Computer Science", "Civil", "Architecture"],
+    "overview": "Jamia Millia Islamia offers strong government college programs at an affordable cost.",
+    "top_course": "Architecture",
+    "review_summary": "Affordable education, supportive faculty, placement support improving."
+  },
+  {
+    "name": "Walchand College of Engineering",
+    "location": "Maharashtra",
+    "fees": 75000,
+    "rating": 4.0,
+    "placement_percent": 80,
+    "courses": ["Mechanical", "Civil", "Computer Science", "Electronics"],
+    "overview": "Walchand College of Engineering is a well-regarded state engineering college with solid placements.",
+    "top_course": "Mechanical Engineering",
+    "review_summary": "Strong practical training, affordable fees, campus is close-knit."
+  },
+  {
+    "name": "BITS Hyderabad",
+    "location": "Telangana",
+    "fees": 230000,
+    "rating": 4.5,
+    "placement_percent": 90,
+    "courses": ["Computer Science", "Electronics & Communication", "Mathematics", "Economics"],
+    "overview": "BITS Hyderabad is a premium institute with modern labs and strong industry placement rates.",
+    "top_course": "Electronics & Communication",
+    "review_summary": "Excellent infrastructure, good placement support, emerging brand."
+  },
+  {
+    "name": "Indian Institute of Information Technology, Hyderabad",
+    "location": "Telangana",
+    "fees": 140000,
+    "rating": 4.6,
+    "placement_percent": 93,
+    "courses": ["Computer Science", "Data Science", "Cybersecurity", "Electronics"],
+    "overview": "IIIT Hyderabad specializes in computer science and information technology with strong research output.",
+    "top_course": "Computer Science",
+    "review_summary": "High salaries, outstanding faculty, strong research programs."
+  },
+  {
+    "name": "PSG College of Technology",
+    "location": "Coimbatore",
+    "fees": 90000,
+    "rating": 4.2,
+    "placement_percent": 86,
+    "courses": ["Mechanical", "Computer Science", "Civil", "Electrical"],
+    "overview": "PSG College of Technology is a respected engineering school with a strong campus ecosystem.",
+    "top_course": "Computer Science",
+    "review_summary": "Good placements, strong academics, excellent student life."
+  }
+]
